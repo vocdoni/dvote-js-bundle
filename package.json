@@ -1,0 +1,24 @@
+{
+  "name": "dvote-js-bundle",
+  "version": "1.0.0",
+  "description": "Bundle version of dvote-js for environments that need to load global HTML scripts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vocdoni/dvote-js-bundle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vocdoni/dvote-js-bundle/issues"
+  },
+  "homepage": "https://github.com/vocdoni/dvote-js-bundle#readme",
+  "dependencies": {
+    "@vocdoni/census": "^1.15.1",
+    "@vocdoni/voting": "^1.15.4"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
+}
