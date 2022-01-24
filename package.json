@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/vocdoni/dvote-js-bundle#readme",
   "dependencies": {
-    "@vocdoni/census": "^1.15.1",
-    "@vocdoni/voting": "^1.15.4"
+    "@vocdoni/census": "^1.16.0",
+    "@vocdoni/voting": "^1.16.0"
   },
   "devDependencies": {
     "browserify": "^17.0.0"

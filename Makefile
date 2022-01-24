@@ -51,15 +51,15 @@ voting: $(TARGET_BUNDLE_VOTING) package.json
 ## census: Bundle the census library
 census: $(TARGET_BUNDLE_CENSUS) package.json
 
-$(TARGET_BUNDLE_MAIN): $(ENTRY_POINT_MAIN)
+$(TARGET_BUNDLE_MAIN): $(ENTRY_POINT_MAIN) package.json
 	mkdir -p $(BUILD_PATH)
 	$(BROWSERIFY) $< -o $@
 
-$(TARGET_BUNDLE_VOTING): $(ENTRY_POINT_VOTING)
+$(TARGET_BUNDLE_VOTING): $(ENTRY_POINT_VOTING) package.json
 	mkdir -p $(BUILD_PATH)
 	$(BROWSERIFY) $< -o $@
 
-$(TARGET_BUNDLE_CENSUS): $(ENTRY_POINT_CENSUS)
+$(TARGET_BUNDLE_CENSUS): $(ENTRY_POINT_CENSUS) package.json
 	mkdir -p $(BUILD_PATH)
 	$(BROWSERIFY) $< -o $@
 
